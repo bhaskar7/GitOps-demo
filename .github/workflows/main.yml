@@ -38,4 +38,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Deployment
-        run: echo Deployment
+        run: |
+          echo Deployment
+          sudo date 
